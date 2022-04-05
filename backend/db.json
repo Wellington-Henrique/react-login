@@ -2,17 +2,38 @@
   "users": [
     {
       "id": 1,
-      "name": "Arthur Oliveira",
-      "email": "admin",
-      "skills": ["frontend", "react"],
+      "name": "Mauricio Varela",
+      "email": "user1",
+      "skills": ["scrum master"],
       "password": "123"
     },
     {
       "id": 2,
-      "name": "Maria Julia da Silva",
-      "email": "adm",
-      "skills": ["backend", "node"],      
-      "password": "321"
+      "name": "Vinicius Oliveira",
+      "email": "user2",
+      "skills": ["java", "node", "vue"],      
+      "password": "123"
+    },
+    {
+      "id": 3,
+      "name": "Rachel S Veltman",
+      "email": "user3",
+      "skills": ["java", "node", "spring", "angular"],      
+      "password": "123"
+    },
+    {
+      "id": 4,
+      "name": "Matheus Ferreira",
+      "email": "user4",
+      "skills": ["typescript", "node", "react"],      
+      "password": "123"
+    },
+    {
+      "id": 5,
+      "name": "Matheus Ferreira",
+      "email": "user5",
+      "skills": ["node", "react-native"],      
+      "password": "123"
     }
   ]
 }

@@ -45,8 +45,8 @@ const UserLogin = () => {
     return { error: 'Usuário ou senha inválida'}
   }
 
-  function onChange(e) {
-    const { value, name } = e.target;
+  function handleChange(e) {
+    const { name, value } = e.target;
 
     setValues({
       ...values,
@@ -73,11 +73,11 @@ const UserLogin = () => {
       <form autoComplete="nope" onSubmit={onSubmit}>
         <div className="user-login__form-control">
           <label htmlFor="email">E-mail</label>
-          <input id="email" type="text" name="email" autoComplete="off" onChange={onChange} value={values.email} placeholder="Usuário"/>
+          <input id="email" type="text" name="email" autoComplete="off" onChange={handleChange} value={values.email} placeholder="Usuário"/>
         </div>
         <div className="user-login__form-control">
           <label htmlFor="password">Senha</label>
-          <input id="password" type="password" name="password" onChange={onChange} value={values.password} placeholder="Senha"/>
+          <input id="password" type="password" name="password" onChange={handleChange} value={values.password} placeholder="Senha"/>
         </div>
         <label htmlFor="" style={{visibility: statusMsg, fontSize: '0.8rem', color: 'red'}}>Usuário ou senha inválida</label>
 
